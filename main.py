@@ -5,6 +5,10 @@ from datetime import datetime
 
 
 def main():
+    """
+    Run the Toggl exporter and timelogger importer using given date.
+    If no date is provided, default to today's date.
+    """
     args = sys.argv
     if len(args) > 1:
         try:
