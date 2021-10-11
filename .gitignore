@@ -12,7 +12,6 @@ __pycache__/
 .venv
 env/
 venv/
-config.ini
 
 # VSCode
 .vscode/
@@ -21,3 +20,7 @@ config.ini
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
+
+# Private
+config.ini
+timelogger_project_pids.json
